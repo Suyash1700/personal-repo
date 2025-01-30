@@ -4,7 +4,7 @@ import simpleGit from 'simple-git';
 
 
 const path = './data.json';
-const date = moment().subtract(5,'d').format();
+const date = moment().subtract(120,'d').format();
 
 const data = {
   date: date,
